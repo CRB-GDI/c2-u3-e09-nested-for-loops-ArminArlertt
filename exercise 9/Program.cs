@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            for (int cols = 1; cols > 10; cols++);
+            for (int cols = 1; cols > 10; cols++)
             {
                 //print header 
-                Console.Write("{0, 5}" ,cols) ;
+                Console.Write("{0, 5}" ,cols);
             }
             // print the table rows 
         }
